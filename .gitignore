@@ -1,0 +1,36 @@
+# Node modules
+**/node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Build output
+**/build/
+**/dist/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Miscellaneous
+*.DS_Store
+*.swp
+*.swo
+
+# Coverage
+**/coverage/
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+

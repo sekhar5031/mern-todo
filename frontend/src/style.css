@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.App {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-title {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btn-submit {
+    background-color: #28a745;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+}
+
+.todo-list {
+    margin-top: 20px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-title {
+    flex: 1;
+}
+
+.todo-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-edit {
+    background-color: #007bff;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.empty-message {
+    text-align: center;
+    color: #888;
+}
